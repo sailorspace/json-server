@@ -1,29 +1,29 @@
 {
     "storage": [
-      { "id": "1","type":"private", "available":"2TB",   "total": 20 , "node":1},
-      { "id": "2","type":"private", "available":"5TB",   "total": 20 , "node":2},
-      { "id": "3","type":"private", "available":"0.5TB", "total": 10 , "node":3},
-      { "id": "4","type":"shared", "available":"10TB",   "total": 40 , "node":0},
-      { "id": "5","type":"private", "available":"15TB",   "total": 40 , "node":4},
-      { "id": "6","type":"private", "available":"11TB",   "total": 40 , "node":5},
-      { "id": "7","type":"private", "available":"12TB",   "total": 40 , "node":6},
-      { "id": "8","type":"private", "available":"4TB",   "total": 40 , "node":7},
-      { "id": "9","type":"private", "available":"1TB",   "total": 40 , "node":8}
+      { "id": 1,"type":"private", "available":"2TB",   "total": 20 , "node":1},
+      { "id": 2,"type":"private", "available":"5TB",   "total": 20 , "node":2},
+      { "id": 3,"type":"private", "available":"0.5TB", "total": 10 , "node":3},
+      { "id": 4,"type":"shared", "available":"10TB",   "total": 40 , "node":0},
+      { "id": 5,"type":"private", "available":"15TB",  "total": 40 , "node":4},
+      { "id": 6,"type":"private", "available":"11TB",  "total": 40 , "node":5},
+      { "id": 7,"type":"private", "available":"12TB",  "total": 40 , "node":6},
+      { "id": 8,"type":"private", "available":"4TB",   "total": 40 , "node":7},
+      { "id": 9,"type":"private", "available":"1TB",   "total": 40 , "node":8}
     ],
     "node": [
-      { "id": "1", "name": "NodeA", "ip": "192.168.2.80" , "poolid":1},
-      { "id": "2", "name": "NodeB", "ip": "192.168.2.81" , "poolid":1},
-      { "id": "3", "name": "NodeC", "ip": "192.168.2.82" , "poolid":1},
-      { "id": "4", "name": "NodeD", "ip": "192.168.3.10" , "poolid":2},
-      { "id": "5", "name": "NodeE", "ip": "192.168.2.11" , "poolid":2},
-      { "id": "6", "name": "NodeF", "ip": "192.168.2.12" , "poolid":2},
-      { "id": "7", "name": "NodeG", "ip": "192.168.2.13" , "poolid":2},
-      { "id": "8", "name": "NodeH", "ip": "192.168.2.14" , "poolid":2}
+      { "id": 1, "name": "NodeA", "ip": "192.168.2.80" , "poolid":1},
+      { "id": 2, "name": "NodeB", "ip": "192.168.2.81" , "poolid":1},
+      { "id": 3, "name": "NodeC", "ip": "192.168.2.82" , "poolid":1},
+      { "id": 4, "name": "NodeD", "ip": "192.168.3.10" , "poolid":2},
+      { "id": 5, "name": "NodeE", "ip": "192.168.2.11" , "poolid":2},
+      { "id": 6, "name": "NodeF", "ip": "192.168.2.12" , "poolid":2},
+      { "id": 7, "name": "NodeG", "ip": "192.168.2.13" , "poolid":2},
+      { "id": 8, "name": "NodeH", "ip": "192.168.2.14" , "poolid":2}
     ],
     "pool": [
-        { "id": "1","type":"private", "nodes-attached":3,"master-node":2 , "status":"balanced"},
-        { "id": "2","type":"private", "nodes-attached":1,"master-node":0 , "status":"un-allocated"},
-        { "id": "3","type":"private", "nodes-attached":5,"master-node":8 , "status":"balanced"}
+        { "id": 1,"type":"private", "nodes-attached":3,"master-node":2 , "status":"balanced"},
+        { "id": 2,"type":"private", "nodes-attached":1,"master-node":0 , "status":"un-allocated"},
+        { "id": 3,"type":"private", "nodes-attached":5,"master-node":8 , "status":"balanced"}
       ],
     "color" : [
         {
